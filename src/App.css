@@ -1,0 +1,56 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60px;
+  background-color: #f0f0f0; /* Set your desired background color */
+  padding: 0 20px;
+}
+
+.display-dropdown {
+  position: relative;
+}
+
+.display-button {
+  padding: 10px 15px;
+  background-color: white; /* Set your desired button color */
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+}
+
+.display-dropdown:hover .dropdown-content {
+  display: flex;
+  margin-left: 15px;
+  
+}
+
+.section {
+  margin: 10px 0;
+}
+
+.section-header {
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+.section select {
+  margin: 5px 0;
+  margin-left: 15px;
+
+}
